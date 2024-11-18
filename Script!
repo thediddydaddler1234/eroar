@@ -1,0 +1,13 @@
+if game.GameId == 14896802601 then
+https://raw.githubusercontent.com/thediddydaddler1234/residence-massacre-script/refs/heads/main/source
+elseif local replicatedStorage = game:GetService("ReplicatedStorage")
+local gameState = replicatedStorage:FindFirstChild("GameState")
+
+if gameState then
+    local infinite = gameState:FindFirstChild("Infinite")
+    if infinite and infinite.Value == true then
+        -- Add logic here for when Infinite is on
+        print("Infinite is on")
+    end
+end
+https://raw.githubusercontent.com/thediddydaddler1234/source/refs/heads/main/Hello!
